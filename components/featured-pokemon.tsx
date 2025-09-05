@@ -6,12 +6,12 @@ export default async function FeaturedPokemon() {
             <h2 className="text-3xl font-bold text-center mb-8 font-stretch-expanded">
                 Featured Pokemon
             </h2>
-            <div className="flex gap-3 justify-between">
+            <section className="flex gap-3 justify-between">
                 <PokeCard/>
                 <PokeCard/>
                 <PokeCard/>
                 <PokeCard/>
-            </div>
+            </section>
         </section>
     )
 }

@@ -22,7 +22,7 @@ export default function Search() {
     }
 
     return (
-        <section className="flex justify-center">
+        <div className="flex justify-center">
             <div className="flex justify-center p-4">
                 <label htmlFor="search" className="sr-only">Search</label>
                 <input className="block w-full rounded-sm border border-gray-200 py-[9px] pl-4 text-md placeholder:text-gray-500" id="search" placeholder="Search for pokemon" onChange={(e) => setQuery(e.target.value)} value={query} />
@@ -31,6 +31,6 @@ export default function Search() {
                     <p className="sr-only">Search</p>
                 </button>
             </div>
-        </section>
+        </div>
     );
 }

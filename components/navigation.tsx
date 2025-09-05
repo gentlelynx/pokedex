@@ -6,7 +6,7 @@ export default function Navigation() {
         <header className="content-grid">
             <nav>
                 <ul className="flex justify-between items-center p-4">
-                    <div className="flex items-center gap-5">
+                    <figure className="flex items-center gap-5">
                         <Image
                             src="/Logo.png"
                             alt="Pokedex"
@@ -14,7 +14,7 @@ export default function Navigation() {
                             height={40}
                         />
                         <h1 className="text-3xl gap-2">Pokedex</h1>
-                    </div>
+                    </figure>
                     <div className="flex gap-5">
                         <li>
                             <Link href="#">Home</Link>
